@@ -8,8 +8,6 @@
   BeTalent - Employees List
 </h1>
 
-<br/>
-
 <h2>📜 Sobre</h2>
 <p>
 	Teste da <strong>BeTalent</strong>.
@@ -33,11 +31,13 @@
 <br/>
 
 <h2>🎨 Design</h2>
-<p>
-  <a href="https://www.figma.com/design/eSQsiZtqefNk94oahY8nMW/Teste-T%C3%A9cnico-Mobile-BeTalent?m=auto&t=xYbrWIvxD1iJa3O5-1">
-    Visualizar Design no Figma
-    </a>
-</p>
+<ul style="list-style-type:circle">
+    <li>
+        <a href="https://www.figma.com/design/mXQDRkTFyZ0DOy8Pc3iN2a/Teste-T%C3%A9cnico-Mobile-BeTalent?m=auto&t=CzcYux3fyunkqbX0-1">
+            Visualizar Design no Figma
+        </a>
+    </li>
+</ul>
 
 <br />
 
