@@ -45,7 +45,7 @@ export default function TableData(props: DataTypes) {
                             Cargo
                         </Text>
                         <Text style={styles.value}>
-                            {props.hiddenProps.job}
+                            {props.job}
                         </Text>
                     </View>
 
@@ -54,7 +54,7 @@ export default function TableData(props: DataTypes) {
                             Data de admissão
                         </Text>
                         <Text style={styles.value}>
-                            {formatAdmissionDate(props.hiddenProps.admission_date)}
+                            {formatAdmissionDate(props.admission_date)}
                         </Text>
                     </View>
 
@@ -63,7 +63,7 @@ export default function TableData(props: DataTypes) {
                             Telefone
                         </Text>
                         <Text style={styles.value}>
-                            {formatPhoneNumber(props.hiddenProps.phone)}
+                            {formatPhoneNumber(props.phone)}
                         </Text>
                     </View>
                 </View>
