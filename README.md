@@ -23,8 +23,14 @@
     <img
         alt="EmployeesList Preview"
         src="https://live.staticflickr.com/65535/54340220878_a6bed26fc8_o.png"
-        width="450"
-        height="45%"
+        width="300"
+        height="40%"
+    />
+    <img
+        alt="EmployeesList Preview"
+        src="https://live.staticflickr.com/65535/54342854635_5942f9cba5_o.png"
+        width="300"
+        height="40%"
     />
 </h3>
 
@@ -65,14 +71,22 @@
         npm run ios
         ```
 
-> [!IMPORTANT] 
-> O iOS rodará somente em sistemas Mac.
+> [!NOTE] 
+> O iOS roda somente em sistemas Mac. A não ser que você leia o QRCode gerado no terminal com um iPhone (dispositivo físico).
 
-5. Em outro terminal, rode o servidor:
+<br />
 
-    ```bash
-    npm run server
-    ```
+5. Antes de rodar o servidor, é necessário consultar seu IP na máquina e incluir no consumo da API. 
+
+> [!TIP]
+> Digite `ipconfig` em um terminal qualquer para saber seu IP.
+> Copie e cole na variável `URL_API` (localizado em `src/app/index.tsx`), subtituindo **APENAS** o IP.
+
+Fazendo essa alteração, abra um outro terminal e no servidor digite:
+
+```bash
+npm run server
+```
 
 6. Você também poderá ler o QRCode gerado no terminal. Mas tanto o computador quanto o celular precisam estar na mesma rede.
 
