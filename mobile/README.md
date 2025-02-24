@@ -14,7 +14,7 @@
     <br />
     Uma tabela apresentando uma lista de funcionários, consumindo uma fake API. 
     <br />
-    Permite pesquisar o nome do funcionário, cargo e telefone. E abrir o menu pelo ícone à diretia, podendo ver informações adicionais do funcionário, como Cargo, Telefone e Data de Admissão.
+    Permite pesquisar o nome do funcionário, cargo e telefone. E abrir o menu pelo ícone à direita, podendo ver informações adicionais do funcionário, como Cargo, Telefone e Data de Admissão.
 </p>
 
 <br/>
